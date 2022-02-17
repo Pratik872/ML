@@ -1,6 +1,6 @@
 # Flight Fare Predictor
 
-To test the deployed model click [here](https://flight-fare-predict-ml2.herokuapp.com/).<br/>
+To test the deployed model click [here](https://flight-fare-deploy.herokuapp.com/).<br/>
 Note : It takes some time to load the heroku page. Patience is the key!!
 
 ## Overview
@@ -95,4 +95,4 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 
 - For deployment repository click [here](https://github.com/Pratik872/ML/tree/deployFlight)
 
-- For Web Application click [here](https://flight-fare-predict-ml2.herokuapp.com/)
+- For Web Application click [here](https://flight-fare-deploy.herokuapp.com/)
