@@ -1,11 +1,16 @@
-# Machine Learning projects : 
-This is a repository containing ML projects implemented by me for academic purposes. Note that these projects are just for academic purpose and hence the models should not be considered for any other uses.
+# Flight Fare Prediction Deployment Branch
+This is a repository for deploying Flight Fare Prediction project in Heroku Cloud. You will find the code in [main](https://github.com/Pratik872/ML/tree/main/E2E%20Project/FlightFarePredictor) branch.
 
-_Note: Data used in the projects is for demonstration purposes only._
+This project is deployed at heroku. Check [here](https://flight-fare-predict-ml2.herokuapp.com/)
 
 ## Contents
 
-- ### End to End projects(Deployment):
+- ### Folder Structure for Deployment : 
 
-	- [Flight Fare Predictor](https://github.com/Pratik872/ML/tree/main/E2E%20Project/FlightFarePredictor): The dataset contains about 10682 records for various airlines and their details. Click on the link for more details.
+	Some files added for deployment to the existing files which are present in [main](https://github.com/Pratik872/ML/tree/main/E2E%20Project/FlightFarePredictor) branch folder structure are:
 
+	- Procfile : This is basically the file in which you have to mention the Flask application initialized and in which file it is initialised
+
+	- requirements.txt : This file is already present in the 'main' branch folder structure. This file is required for dockerisation of the application and also to deploy it on heroku. While deploying the application on Heroku, this file gets triggered and all the dependencies are downloaded.
+
+	- runtime.txt : This file is used to specify the python version which we want heroku to use.It will be detected automatically by python and all dependencies in 'requirements.txt' will be downloaded and installed using the pip of your python version. I have used this so that there will be no conflicts while deployment.It is not mandatory to use this file 
