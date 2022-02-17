@@ -49,45 +49,50 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 ![Heatmap](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/heatmap.png)
 
 ### Feature Engineering
-- I have derived many features from existing features so that I can use them in my model. You can check the notebook attached.
+- I have derived many useful features from existing features so that I can use them in my model. You can check the notebook attached.
 
 - I have handled categorical variables i.e nominal ar well as ordinal by using one-hot-encoding and label encoding whereever necessary.
 
+### Feature Selection
+- I have used ExtraTreesRegressor for checking feature importances.
+
+- I have also used barplot for visualising them:
+![Feature_Imp](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/feature%20importances.png)
+
 ### Model Making
 
-- I have prepared Naive Bayes Classifier and RandomForests Classifier models.
+- I have built a RandomForestRegressor model with default hyperparameters initially.
 
-- I have chosen RandomForests Classifier as my final model as I got better results.
+- I chose this model just because I thought ensemble model would work better. But you can try different models too.
 
-- I have tuned the hyperparameters i.e 'alpha' for NB Classifier and 'n_estimators' for RF Classifier by using GridSearchCV
+### Hyper-Parameter Tuning
 
-- Further I have used StratifiedKFold as my cv to balance training and validation data.
+- I have tuned the hyperparameters 'n_estimators', 'max_depth', 'max_features' by using RandomisedSearchCV. I used  this because this works faster than GridSearchCV.
+
+- I again built a RF model with best hyper-parameters selected from CV.
 
 ### Metrics
 
-- To check how many messages are correctly identified as spams and hams I have used confusion matrices for both models.
+- I have used 'r2_score' as my metric here. You can use any different metric for regression.
 
-![CF_NB](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/NB_CF.png)
-![CF_RF](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/RF_CF.png)
-
-Correction : The image on right side is for RandomForestsClassifier instead of Naive Bayes.
-
-- I have given importance to 'precision' score as we need to correct identify the spam message.eg : What if model detects a ham message as spam!!!The person would miss important message!!
+- Further I have plotted and checked error terms also to check whether they are normally distributed around 0.
 
 ### DATA SOURCE
-- [Flight Fare Dataset](https://github.com/Pratik872/AI-ML/blob/main/Natural%20Language%20Processing/SpamHam%20Classifier/SMSSpamCollection)
+- [Flight Fare Dataset](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/)
 
 ### Notebook
-- [SMS Spam-Ham Classifier](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/SMSClassifier.ipynb)
+- [Flight Fare Predictor](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/Flight%20Fare%20Prediction.ipynb)
 
 ### Built with 🛠️
-- Packages : Pandas,Numpy,Seaborn,Matplotlib,NLTK,Sklearn,re(Regular Expressions),Imblearn,Flask,pickle
+- Packages/Repo : Pandas,Numpy,Seaborn,Matplotlib,Sklearn,Flask,Pickle,Git
 
 - Dataset : Kaggle
+
+- Coded on : Jupter Notebook (modelling), VSCode(building application)
 
 ### Deployment
 - Deployed using Heroku(PAAS)
 
-- For deployment repository click [here](https://github.com/Pratik872/AI-ML/tree/NLPDeploy)
+- For deployment repository click [here](https://github.com/Pratik872/ML/tree/deployFlight)
 
-- For Web Application click [here](https://sms-classifier-nlp-ml.herokuapp.com/)
+- For Web Application click [here](https://flight-fare-predict-ml2.herokuapp.com/)
