@@ -46,7 +46,7 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 - Required Graphs are plotted using seaborn,matplotlib libraries.
 
 - Also heatmap is plotted for checking the corelation between target and predictor variables.
-![PriceVsStops](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/StopsVsPrice.png)
+![Heatmap](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/heatmap.png)
 
 ### Feature Engineering
 - I have derived many features from existing features so that I can use them in my model. You can check the notebook attached.
