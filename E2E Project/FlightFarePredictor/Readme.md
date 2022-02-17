@@ -4,14 +4,16 @@ To test the deployed model click [here](https://flight-fare-predict-ml2.herokuap
 Note : It takes some time to load the heroku page. Patience is the key!!
 
 ## Overview
-- The dataset consists of records for different airlines,travel routes,stops,sources,destination,date of journeyprice,etc.Price is the target variable.This dataset is present on kaggle.Please check [here](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/)for more details on dataset. 
+- The dataset consists of records for different airlines,travel routes,stops,sources,destination,date of journeyprice,etc.Price is the target variable.This dataset is present on kaggle.Please check [here](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/) for more details on dataset. 
 
 - The train dataset has about 10682 records. The test dataset is a different file and you will have to test on that. 
 
 ## Motivation
 - I like to travel a lot. So for this purpose I thought it would be better if try to analyse this data and make a model out of it just for academic purpose.
 
--  This model would give you approximate fare value and not the exact!!
+- As I am a traveller, I found this project interesting as I would analyse how different features affect the flight prices.
+
+-  This model would give you approximate fare value and not the exact!
 
 ## Project Structure
 - [main.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/main.py) : This file has the flask application which is created.
@@ -29,33 +31,27 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 - [Flight Fare Prediction.ipynb](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/Flight%20Fare%20Prediction.ipynb) : This jupyter notebook has the code for making models.
 
 ## Problem Objective
-- To build a model which predict the prices of flight using the dataset
+- To build a model which predict the prices of flight using a dataset
 
 ## Methodology
 
 ### EDA (Exploratory Data Analysis)
-- Checked for NaN values.
+- I have plotted various graphs to visualize the data. Some of them are as follows : 
+
+![PriceVsAirline](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/AirlineVsPrice.png)
+![PriceVsDest](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/DestinationVsPrice.png)
+![PriceVsSource](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/SourceVsPrice.png)
+![PriceVsStops](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/StopsVsPrice.png)
 
 - Required Graphs are plotted using seaborn,matplotlib libraries.
 
-- Checked for data imbalance.
-
-### Data Preprocessing
-- I have used regular expressions to filter the data i.e removing unwanted commas,full-stops, special characters etc.
-
-- Removed stop words from the corpus so that we don't train our model with unnecessary features.
-
-- I have used Lemmatization for processing the words.
-
-- Used TfIdf Vectorizer model to transform the features.
+- Also heatmap is plotted for checking the corelation between target and predictor variables.
+![PriceVsStops](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources/StopsVsPrice.png)
 
 ### Feature Engineering
-- Transformed the target variable into binary.
+- I have derived many features from existing features so that I can use them in my model. You can check the notebook attached.
 
-- The data was imbalanced. So balanced the dataset using Over-Sampling method. I have used 'imblearn' library for this.
-
-![HAMvsSPAMOrg](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/imb_dataset.png)
-![HAMvsSPAMBal](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/bal_dataset.png)
+- I have handled categorical variables i.e nominal ar well as ordinal by using one-hot-encoding and label encoding whereever necessary.
 
 ### Model Making
 
