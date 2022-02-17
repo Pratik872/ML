@@ -14,22 +14,22 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 -  This model would give you approximate fare value and not the exact!!
 
 ## Project Structure
-- [main.py](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/main.py) : This file has the flask application which is created.
+- [main.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/main.py) : This file has the flask application which is created.
 
-- [utils.py](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/utils.py) : This file has all the helper functions which are required to run the application.
+- [utils.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/utils.py) : This file has all the helper functions which are required to run the application.
 
-- [constants.py](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/constants.py) : This file has all the constant variables required in developing the application.
+- [constants.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/constants.py) : This file has all the constant variables required in developing the application.
 
-- [templates](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/templates) : This folder has all the templates which are rendered in the application
+- [templates](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/templates) : This folder has all the templates which are rendered in the application
 
-- [readme_resources](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources) : This folder has all the images used to create readme file.
+- [readme_resources](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources) : This folder has all the images used to create readme file.
 
-- [requirements.txt](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/requirements.txt) : This file has all the packages used to code and build the application.
+- [requirements.txt](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/requirements.txt) : This file has all the packages used to code and build the application.
 
-- [SMSClassifier.ipynb](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/SMSClassifier.ipynb) : This jupyter notebook has the code for making models.
+- [Flight Fare Prediction.ipynb](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/Flight%20Fare%20Prediction.ipynb) : This jupyter notebook has the code for making models.
 
 ## Problem Objective
-- To build a model which can classify SMS messages into Spam - Ham
+- To build a model which predict the prices of flight using the dataset
 
 ## Methodology
 
@@ -79,7 +79,7 @@ Correction : The image on right side is for RandomForestsClassifier instead of N
 - I have given importance to 'precision' score as we need to correct identify the spam message.eg : What if model detects a ham message as spam!!!The person would miss important message!!
 
 ### DATA SOURCE
-- [SMS Spam-Ham Dataset](https://github.com/Pratik872/AI-ML/blob/main/Natural%20Language%20Processing/SpamHam%20Classifier/SMSSpamCollection)
+- [Flight Fare Dataset](https://github.com/Pratik872/AI-ML/blob/main/Natural%20Language%20Processing/SpamHam%20Classifier/SMSSpamCollection)
 
 ### Notebook
 - [SMS Spam-Ham Classifier](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/SMSClassifier.ipynb)

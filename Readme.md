@@ -7,5 +7,5 @@ _Note: Data used in the projects is for demonstration purposes only._
 
 - ### End to End projects(Deployment):
 
-	- [Flight Fare Predictor](https://github.com/Pratik872/AI-ML/tree/main/E2E%20projects/SMSSpamClassifier): The dataset contains about 10682 records for various airlines and their details. Click on the link for more details.
+	- [Flight Fare Predictor](https://github.com/Pratik872/ML/tree/main/E2E%20Project/FlightFarePredictor): The dataset contains about 10682 records for various airlines and their details. Click on the link for more details.
 
