@@ -12,19 +12,17 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 -  This model is trained on very less data. But this model would give you appropriate results.
 
 ## Project Structure
-- [main.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/main.py) : This file has the flask application which is created.
+- [main.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/main.py) : This file has the flask application which is created.
 
-- [utils.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/utils.py) : This file has all the helper functions which are required to run the application.
+- [utils.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/utils.py) : This file has all the helper functions which are required to run the application.
 
-- [constants.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/constants.py) : This file has all the constant variables required in developing the application.
+- [constants.py](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/constants.py) : This file has all the constant variables required in developing the application.
 
-- [templates](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/templates) : This folder has all the templates which are rendered in the application
+- [templates](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/templates) : This folder has all the templates which are rendered in the application
 
-- [readme_resources](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/readme_resources) : This folder has all the images used to create readme file.
+- [requirements.txt](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/requirements.txt) : This file has all the packages used to code and build the application.
 
-- [requirements.txt](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/requirements.txt) : This file has all the packages used to code and build the application.
-
-- [AnimalClassClassifier.ipynb](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/Flight%20Fare%20Prediction.ipynb) : This jupyter notebook has the code for making models.
+- [AnimalClassClassifier.ipynb](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/AnimalClassClassifier.ipynb) : This jupyter notebook has the code for making models.
 
 ## Problem Objective
 - To build a model which can classify animals based on thier features.
@@ -56,7 +54,7 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 - [Zoo Animal Classification Dataset](https://www.kaggle.com/uciml/zoo-animal-classificatio)
 
 ### Notebook
-- [Animal Class Classifier](https://github.com/Pratik872/ML/blob/main/E2E%20Project/FlightFarePredictor/Flight%20Fare%20Prediction.ipynb)
+- [Animal Class Classifier](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/AnimalClassClassifier.ipynb)
 
 ### Built with 🛠️
 - Packages/Repo : Pandas,Numpy,Sklearn,Flask,Pickle,Git
