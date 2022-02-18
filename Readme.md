@@ -4,7 +4,7 @@ This is a repository for deploying Zoo Animal Class Classification project in He
 
 _Note: Data used in the projects is for demonstration purposes only._
 
-<!-- This project is deployed at heroku. Check [here](https://flight-fare-deploy.herokuapp.com/) -->
+This project is deployed at heroku. Check [here](https://zoo-animal-class-deploy.herokuapp.com/
 
 ## Contents
 
