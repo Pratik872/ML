@@ -51,7 +51,7 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 
 
 ### DATA SOURCE
-- [Zoo Animal Classification Dataset](https://www.kaggle.com/uciml/zoo-animal-classificatio)
+- [Zoo Animal Classification Dataset](https://www.kaggle.com/uciml/zoo-animal-classification)
 
 ### Notebook
 - [Animal Class Classifier](https://github.com/Pratik872/ML/blob/main/E2E%20Project/Zoo%20Animal%20Classification/AnimalClassClassifier.ipynb)
